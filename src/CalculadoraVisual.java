@@ -127,6 +127,7 @@ public class CalculadoraVisual {
                     lblResultado.setText("Error en el cálculo");
                 }
             }
+
         });
 
     }
