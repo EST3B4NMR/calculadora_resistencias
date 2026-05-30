@@ -126,6 +126,7 @@ public class CalculadoraVisual {
                 } catch (Exception ex) {
                     lblResultado.setText("Error en el cálculo");
                 }
+
             }
 
         });
