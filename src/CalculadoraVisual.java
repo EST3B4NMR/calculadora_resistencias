@@ -140,6 +140,7 @@ public class CalculadoraVisual {
         frame.setSize(600, 500); // Lo hacemos un poco más alto
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
+
     }
 
     // --- CLASE QUE DIBUJA LA SILUETA DE LA RESISTENCIA ---
@@ -213,6 +214,7 @@ public class CalculadoraVisual {
                 } else {
                     setForeground(Color.BLACK);
                 }
+
             }
             return this;
         }
