@@ -75,6 +75,7 @@ public class CalculadoraVisual {
         // Disparar el primer dibujo por defecto
         comboBox1.setSelectedItem("Marrón");
         // operaciones
+
         btnCalcular.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -127,6 +128,7 @@ public class CalculadoraVisual {
                 }
             }
         });
+
     }
 
     public static void main(String[] args) {
