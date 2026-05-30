@@ -49,12 +49,12 @@ public class CalculadoraVisual {
         comboBox3.setRenderer(new PintorDeColores());
         comboBox4.setRenderer(new PintorDeColores());
 
-        // 2. MAGIA DEL DIBUJO: Agregamos nuestra silueta al lienzo
+        // Agregamos nuestra silueta al lienzo
         SiluetaResistencia dibujo = new SiluetaResistencia();
         panelDibujo.setLayout(new BorderLayout());
         panelDibujo.add(dibujo, BorderLayout.CENTER);
 
-        // 3. Crear el "escuchador" que actualizará el dibujo al seleccionar un color
+        // Crear el "escuchador" que actualizará el dibujo al seleccionar un color
         ActionListener actualizadorDibujo = new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -74,7 +74,7 @@ public class CalculadoraVisual {
 
         // Disparar el primer dibujo por defecto
         comboBox1.setSelectedItem("Marrón");
-        // --- 4. DARLE MATEMÁTICAS AL BOTÓN CALCULAR ---
+        // operaciones
         btnCalcular.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
